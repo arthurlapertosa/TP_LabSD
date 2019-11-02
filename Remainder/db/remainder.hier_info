@@ -1,0 +1,35 @@
+|remainder
+X[0] => Mod0.IN31
+X[1] => Mod0.IN30
+X[2] => Mod0.IN29
+X[3] => Mod0.IN28
+X[4] => Mod0.IN27
+X[5] => Mod0.IN26
+X[6] => Mod0.IN25
+X[7] => Mod0.IN24
+X[8] => Mod0.IN23
+X[9] => Mod0.IN22
+X[10] => Mod0.IN21
+X[11] => Mod0.IN20
+X[12] => Mod0.IN19
+X[13] => Mod0.IN18
+X[14] => Mod0.IN17
+X[15] => Mod0.IN16
+output[0] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= Mod0.DB_MAX_OUTPUT_PORT_TYPE
+
+

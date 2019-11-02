@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="remainder">
+		<CBX_INST_ENTRY INSTANCE_NAME="|remainder|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_68m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

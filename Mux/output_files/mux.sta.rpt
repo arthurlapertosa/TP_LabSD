@@ -1,0 +1,580 @@
+TimeQuest Timing Analyzer report for mux
+Fri Nov 01 16:11:02 2019
+Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name      ; mux                                              ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C5T144C6                                      ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-12 processors        ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------+
+; Propagation Delay                                                 ;
++--------------+----------------+--------+--------+--------+--------+
+; Input Port   ; Output Port    ; RR     ; RF     ; FR     ; FF     ;
++--------------+----------------+--------+--------+--------+--------+
+; Mux_X[0]     ; Mux_output[0]  ; 10.572 ;        ;        ; 10.572 ;
+; Mux_X[1]     ; Mux_output[1]  ; 9.992  ;        ;        ; 9.992  ;
+; Mux_X[2]     ; Mux_output[2]  ; 10.117 ;        ;        ; 10.117 ;
+; Mux_X[3]     ; Mux_output[3]  ; 10.451 ;        ;        ; 10.451 ;
+; Mux_X[4]     ; Mux_output[4]  ; 9.756  ;        ;        ; 9.756  ;
+; Mux_X[5]     ; Mux_output[5]  ; 11.172 ;        ;        ; 11.172 ;
+; Mux_X[6]     ; Mux_output[6]  ; 10.779 ;        ;        ; 10.779 ;
+; Mux_X[7]     ; Mux_output[7]  ; 11.438 ;        ;        ; 11.438 ;
+; Mux_X[8]     ; Mux_output[8]  ; 11.016 ;        ;        ; 11.016 ;
+; Mux_X[9]     ; Mux_output[9]  ; 9.873  ;        ;        ; 9.873  ;
+; Mux_X[10]    ; Mux_output[10] ; 9.780  ;        ;        ; 9.780  ;
+; Mux_X[11]    ; Mux_output[11] ; 9.795  ;        ;        ; 9.795  ;
+; Mux_X[12]    ; Mux_output[12] ; 10.218 ;        ;        ; 10.218 ;
+; Mux_X[13]    ; Mux_output[13] ; 5.222  ;        ;        ; 5.222  ;
+; Mux_X[14]    ; Mux_output[14] ; 6.652  ;        ;        ; 6.652  ;
+; Mux_X[15]    ; Mux_output[15] ; 10.549 ;        ;        ; 10.549 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 10.425 ;        ;        ; 10.425 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 9.360  ;        ;        ; 9.360  ;
+; Mux_Y[2]     ; Mux_output[2]  ; 9.630  ;        ;        ; 9.630  ;
+; Mux_Y[3]     ; Mux_output[3]  ; 10.384 ;        ;        ; 10.384 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 9.455  ;        ;        ; 9.455  ;
+; Mux_Y[5]     ; Mux_output[5]  ; 11.716 ;        ;        ; 11.716 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 10.916 ;        ;        ; 10.916 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 11.045 ;        ;        ; 11.045 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 11.294 ;        ;        ; 11.294 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 10.480 ;        ;        ; 10.480 ;
+; Mux_Y[10]    ; Mux_output[10] ; 10.128 ;        ;        ; 10.128 ;
+; Mux_Y[11]    ; Mux_output[11] ; 9.820  ;        ;        ; 9.820  ;
+; Mux_Y[12]    ; Mux_output[12] ; 10.478 ;        ;        ; 10.478 ;
+; Mux_Y[13]    ; Mux_output[13] ; 5.032  ;        ;        ; 5.032  ;
+; Mux_Y[14]    ; Mux_output[14] ; 6.801  ;        ;        ; 6.801  ;
+; Mux_Y[15]    ; Mux_output[15] ; 9.967  ;        ;        ; 9.967  ;
+; SelectionBit ; Mux_output[0]  ; 10.515 ; 10.515 ; 10.515 ; 10.515 ;
+; SelectionBit ; Mux_output[1]  ; 10.137 ; 10.137 ; 10.137 ; 10.137 ;
+; SelectionBit ; Mux_output[2]  ; 10.438 ; 10.438 ; 10.438 ; 10.438 ;
+; SelectionBit ; Mux_output[3]  ; 10.657 ; 10.657 ; 10.657 ; 10.657 ;
+; SelectionBit ; Mux_output[4]  ; 10.519 ; 10.519 ; 10.519 ; 10.519 ;
+; SelectionBit ; Mux_output[5]  ; 11.980 ; 11.980 ; 11.980 ; 11.980 ;
+; SelectionBit ; Mux_output[6]  ; 11.456 ; 11.456 ; 11.456 ; 11.456 ;
+; SelectionBit ; Mux_output[7]  ; 11.858 ; 11.858 ; 11.858 ; 11.858 ;
+; SelectionBit ; Mux_output[8]  ; 11.438 ; 11.438 ; 11.438 ; 11.438 ;
+; SelectionBit ; Mux_output[9]  ; 10.476 ; 10.476 ; 10.476 ; 10.476 ;
+; SelectionBit ; Mux_output[10] ; 10.447 ; 10.447 ; 10.447 ; 10.447 ;
+; SelectionBit ; Mux_output[11] ; 10.483 ; 10.483 ; 10.483 ; 10.483 ;
+; SelectionBit ; Mux_output[12] ; 10.439 ; 10.439 ; 10.439 ; 10.439 ;
+; SelectionBit ; Mux_output[13] ; 10.148 ; 10.148 ; 10.148 ; 10.148 ;
+; SelectionBit ; Mux_output[14] ; 11.768 ; 11.768 ; 11.768 ; 11.768 ;
+; SelectionBit ; Mux_output[15] ; 10.663 ; 10.663 ; 10.663 ; 10.663 ;
++--------------+----------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Propagation Delay                                         ;
++--------------+----------------+--------+--------+--------+--------+
+; Input Port   ; Output Port    ; RR     ; RF     ; FR     ; FF     ;
++--------------+----------------+--------+--------+--------+--------+
+; Mux_X[0]     ; Mux_output[0]  ; 10.572 ;        ;        ; 10.572 ;
+; Mux_X[1]     ; Mux_output[1]  ; 9.992  ;        ;        ; 9.992  ;
+; Mux_X[2]     ; Mux_output[2]  ; 10.117 ;        ;        ; 10.117 ;
+; Mux_X[3]     ; Mux_output[3]  ; 10.451 ;        ;        ; 10.451 ;
+; Mux_X[4]     ; Mux_output[4]  ; 9.756  ;        ;        ; 9.756  ;
+; Mux_X[5]     ; Mux_output[5]  ; 11.172 ;        ;        ; 11.172 ;
+; Mux_X[6]     ; Mux_output[6]  ; 10.779 ;        ;        ; 10.779 ;
+; Mux_X[7]     ; Mux_output[7]  ; 11.438 ;        ;        ; 11.438 ;
+; Mux_X[8]     ; Mux_output[8]  ; 11.016 ;        ;        ; 11.016 ;
+; Mux_X[9]     ; Mux_output[9]  ; 9.873  ;        ;        ; 9.873  ;
+; Mux_X[10]    ; Mux_output[10] ; 9.780  ;        ;        ; 9.780  ;
+; Mux_X[11]    ; Mux_output[11] ; 9.795  ;        ;        ; 9.795  ;
+; Mux_X[12]    ; Mux_output[12] ; 10.218 ;        ;        ; 10.218 ;
+; Mux_X[13]    ; Mux_output[13] ; 5.222  ;        ;        ; 5.222  ;
+; Mux_X[14]    ; Mux_output[14] ; 6.652  ;        ;        ; 6.652  ;
+; Mux_X[15]    ; Mux_output[15] ; 10.549 ;        ;        ; 10.549 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 10.425 ;        ;        ; 10.425 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 9.360  ;        ;        ; 9.360  ;
+; Mux_Y[2]     ; Mux_output[2]  ; 9.630  ;        ;        ; 9.630  ;
+; Mux_Y[3]     ; Mux_output[3]  ; 10.384 ;        ;        ; 10.384 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 9.455  ;        ;        ; 9.455  ;
+; Mux_Y[5]     ; Mux_output[5]  ; 11.716 ;        ;        ; 11.716 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 10.916 ;        ;        ; 10.916 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 11.045 ;        ;        ; 11.045 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 11.294 ;        ;        ; 11.294 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 10.480 ;        ;        ; 10.480 ;
+; Mux_Y[10]    ; Mux_output[10] ; 10.128 ;        ;        ; 10.128 ;
+; Mux_Y[11]    ; Mux_output[11] ; 9.820  ;        ;        ; 9.820  ;
+; Mux_Y[12]    ; Mux_output[12] ; 10.478 ;        ;        ; 10.478 ;
+; Mux_Y[13]    ; Mux_output[13] ; 5.032  ;        ;        ; 5.032  ;
+; Mux_Y[14]    ; Mux_output[14] ; 6.801  ;        ;        ; 6.801  ;
+; Mux_Y[15]    ; Mux_output[15] ; 9.967  ;        ;        ; 9.967  ;
+; SelectionBit ; Mux_output[0]  ; 10.515 ; 10.515 ; 10.515 ; 10.515 ;
+; SelectionBit ; Mux_output[1]  ; 10.137 ; 10.137 ; 10.137 ; 10.137 ;
+; SelectionBit ; Mux_output[2]  ; 10.438 ; 10.438 ; 10.438 ; 10.438 ;
+; SelectionBit ; Mux_output[3]  ; 10.657 ; 10.657 ; 10.657 ; 10.657 ;
+; SelectionBit ; Mux_output[4]  ; 10.519 ; 10.519 ; 10.519 ; 10.519 ;
+; SelectionBit ; Mux_output[5]  ; 11.980 ; 11.980 ; 11.980 ; 11.980 ;
+; SelectionBit ; Mux_output[6]  ; 11.456 ; 11.456 ; 11.456 ; 11.456 ;
+; SelectionBit ; Mux_output[7]  ; 11.858 ; 11.858 ; 11.858 ; 11.858 ;
+; SelectionBit ; Mux_output[8]  ; 11.438 ; 11.438 ; 11.438 ; 11.438 ;
+; SelectionBit ; Mux_output[9]  ; 10.476 ; 10.476 ; 10.476 ; 10.476 ;
+; SelectionBit ; Mux_output[10] ; 10.447 ; 10.447 ; 10.447 ; 10.447 ;
+; SelectionBit ; Mux_output[11] ; 10.483 ; 10.483 ; 10.483 ; 10.483 ;
+; SelectionBit ; Mux_output[12] ; 10.439 ; 10.439 ; 10.439 ; 10.439 ;
+; SelectionBit ; Mux_output[13] ; 10.148 ; 10.148 ; 10.148 ; 10.148 ;
+; SelectionBit ; Mux_output[14] ; 11.768 ; 11.768 ; 11.768 ; 11.768 ;
+; SelectionBit ; Mux_output[15] ; 10.663 ; 10.663 ; 10.663 ; 10.663 ;
++--------------+----------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------+
+; Propagation Delay                                             ;
++--------------+----------------+-------+-------+-------+-------+
+; Input Port   ; Output Port    ; RR    ; RF    ; FR    ; FF    ;
++--------------+----------------+-------+-------+-------+-------+
+; Mux_X[0]     ; Mux_output[0]  ; 5.901 ;       ;       ; 5.901 ;
+; Mux_X[1]     ; Mux_output[1]  ; 5.518 ;       ;       ; 5.518 ;
+; Mux_X[2]     ; Mux_output[2]  ; 5.591 ;       ;       ; 5.591 ;
+; Mux_X[3]     ; Mux_output[3]  ; 5.831 ;       ;       ; 5.831 ;
+; Mux_X[4]     ; Mux_output[4]  ; 5.465 ;       ;       ; 5.465 ;
+; Mux_X[5]     ; Mux_output[5]  ; 6.116 ;       ;       ; 6.116 ;
+; Mux_X[6]     ; Mux_output[6]  ; 5.984 ;       ;       ; 5.984 ;
+; Mux_X[7]     ; Mux_output[7]  ; 6.213 ;       ;       ; 6.213 ;
+; Mux_X[8]     ; Mux_output[8]  ; 6.104 ;       ;       ; 6.104 ;
+; Mux_X[9]     ; Mux_output[9]  ; 5.558 ;       ;       ; 5.558 ;
+; Mux_X[10]    ; Mux_output[10] ; 5.469 ;       ;       ; 5.469 ;
+; Mux_X[11]    ; Mux_output[11] ; 5.519 ;       ;       ; 5.519 ;
+; Mux_X[12]    ; Mux_output[12] ; 5.697 ;       ;       ; 5.697 ;
+; Mux_X[13]    ; Mux_output[13] ; 2.697 ;       ;       ; 2.697 ;
+; Mux_X[14]    ; Mux_output[14] ; 3.387 ;       ;       ; 3.387 ;
+; Mux_X[15]    ; Mux_output[15] ; 5.833 ;       ;       ; 5.833 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 5.837 ;       ;       ; 5.837 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 5.247 ;       ;       ; 5.247 ;
+; Mux_Y[2]     ; Mux_output[2]  ; 5.399 ;       ;       ; 5.399 ;
+; Mux_Y[3]     ; Mux_output[3]  ; 5.736 ;       ;       ; 5.736 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 5.341 ;       ;       ; 5.341 ;
+; Mux_Y[5]     ; Mux_output[5]  ; 6.436 ;       ;       ; 6.436 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 6.069 ;       ;       ; 6.069 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 6.014 ;       ;       ; 6.014 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 6.168 ;       ;       ; 6.168 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 5.782 ;       ;       ; 5.782 ;
+; Mux_Y[10]    ; Mux_output[10] ; 5.634 ;       ;       ; 5.634 ;
+; Mux_Y[11]    ; Mux_output[11] ; 5.548 ;       ;       ; 5.548 ;
+; Mux_Y[12]    ; Mux_output[12] ; 5.829 ;       ;       ; 5.829 ;
+; Mux_Y[13]    ; Mux_output[13] ; 2.600 ;       ;       ; 2.600 ;
+; Mux_Y[14]    ; Mux_output[14] ; 3.453 ;       ;       ; 3.453 ;
+; Mux_Y[15]    ; Mux_output[15] ; 5.563 ;       ;       ; 5.563 ;
+; SelectionBit ; Mux_output[0]  ; 5.918 ; 5.918 ; 5.918 ; 5.918 ;
+; SelectionBit ; Mux_output[1]  ; 5.600 ; 5.600 ; 5.600 ; 5.600 ;
+; SelectionBit ; Mux_output[2]  ; 5.808 ; 5.808 ; 5.808 ; 5.808 ;
+; SelectionBit ; Mux_output[3]  ; 5.934 ; 5.934 ; 5.934 ; 5.934 ;
+; SelectionBit ; Mux_output[4]  ; 5.828 ; 5.828 ; 5.828 ; 5.828 ;
+; SelectionBit ; Mux_output[5]  ; 6.540 ; 6.540 ; 6.540 ; 6.540 ;
+; SelectionBit ; Mux_output[6]  ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; SelectionBit ; Mux_output[7]  ; 6.437 ; 6.437 ; 6.437 ; 6.437 ;
+; SelectionBit ; Mux_output[8]  ; 6.302 ; 6.302 ; 6.302 ; 6.302 ;
+; SelectionBit ; Mux_output[9]  ; 5.850 ; 5.850 ; 5.850 ; 5.850 ;
+; SelectionBit ; Mux_output[10] ; 5.848 ; 5.848 ; 5.848 ; 5.848 ;
+; SelectionBit ; Mux_output[11] ; 5.896 ; 5.896 ; 5.896 ; 5.896 ;
+; SelectionBit ; Mux_output[12] ; 5.841 ; 5.841 ; 5.841 ; 5.841 ;
+; SelectionBit ; Mux_output[13] ; 5.649 ; 5.649 ; 5.649 ; 5.649 ;
+; SelectionBit ; Mux_output[14] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; SelectionBit ; Mux_output[15] ; 5.941 ; 5.941 ; 5.941 ; 5.941 ;
++--------------+----------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------+
+; Minimum Propagation Delay                                     ;
++--------------+----------------+-------+-------+-------+-------+
+; Input Port   ; Output Port    ; RR    ; RF    ; FR    ; FF    ;
++--------------+----------------+-------+-------+-------+-------+
+; Mux_X[0]     ; Mux_output[0]  ; 5.901 ;       ;       ; 5.901 ;
+; Mux_X[1]     ; Mux_output[1]  ; 5.518 ;       ;       ; 5.518 ;
+; Mux_X[2]     ; Mux_output[2]  ; 5.591 ;       ;       ; 5.591 ;
+; Mux_X[3]     ; Mux_output[3]  ; 5.831 ;       ;       ; 5.831 ;
+; Mux_X[4]     ; Mux_output[4]  ; 5.465 ;       ;       ; 5.465 ;
+; Mux_X[5]     ; Mux_output[5]  ; 6.116 ;       ;       ; 6.116 ;
+; Mux_X[6]     ; Mux_output[6]  ; 5.984 ;       ;       ; 5.984 ;
+; Mux_X[7]     ; Mux_output[7]  ; 6.213 ;       ;       ; 6.213 ;
+; Mux_X[8]     ; Mux_output[8]  ; 6.104 ;       ;       ; 6.104 ;
+; Mux_X[9]     ; Mux_output[9]  ; 5.558 ;       ;       ; 5.558 ;
+; Mux_X[10]    ; Mux_output[10] ; 5.469 ;       ;       ; 5.469 ;
+; Mux_X[11]    ; Mux_output[11] ; 5.519 ;       ;       ; 5.519 ;
+; Mux_X[12]    ; Mux_output[12] ; 5.697 ;       ;       ; 5.697 ;
+; Mux_X[13]    ; Mux_output[13] ; 2.697 ;       ;       ; 2.697 ;
+; Mux_X[14]    ; Mux_output[14] ; 3.387 ;       ;       ; 3.387 ;
+; Mux_X[15]    ; Mux_output[15] ; 5.833 ;       ;       ; 5.833 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 5.837 ;       ;       ; 5.837 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 5.247 ;       ;       ; 5.247 ;
+; Mux_Y[2]     ; Mux_output[2]  ; 5.399 ;       ;       ; 5.399 ;
+; Mux_Y[3]     ; Mux_output[3]  ; 5.736 ;       ;       ; 5.736 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 5.341 ;       ;       ; 5.341 ;
+; Mux_Y[5]     ; Mux_output[5]  ; 6.436 ;       ;       ; 6.436 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 6.069 ;       ;       ; 6.069 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 6.014 ;       ;       ; 6.014 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 6.168 ;       ;       ; 6.168 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 5.782 ;       ;       ; 5.782 ;
+; Mux_Y[10]    ; Mux_output[10] ; 5.634 ;       ;       ; 5.634 ;
+; Mux_Y[11]    ; Mux_output[11] ; 5.548 ;       ;       ; 5.548 ;
+; Mux_Y[12]    ; Mux_output[12] ; 5.829 ;       ;       ; 5.829 ;
+; Mux_Y[13]    ; Mux_output[13] ; 2.600 ;       ;       ; 2.600 ;
+; Mux_Y[14]    ; Mux_output[14] ; 3.453 ;       ;       ; 3.453 ;
+; Mux_Y[15]    ; Mux_output[15] ; 5.563 ;       ;       ; 5.563 ;
+; SelectionBit ; Mux_output[0]  ; 5.918 ; 5.918 ; 5.918 ; 5.918 ;
+; SelectionBit ; Mux_output[1]  ; 5.600 ; 5.600 ; 5.600 ; 5.600 ;
+; SelectionBit ; Mux_output[2]  ; 5.808 ; 5.808 ; 5.808 ; 5.808 ;
+; SelectionBit ; Mux_output[3]  ; 5.934 ; 5.934 ; 5.934 ; 5.934 ;
+; SelectionBit ; Mux_output[4]  ; 5.828 ; 5.828 ; 5.828 ; 5.828 ;
+; SelectionBit ; Mux_output[5]  ; 6.540 ; 6.540 ; 6.540 ; 6.540 ;
+; SelectionBit ; Mux_output[6]  ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; SelectionBit ; Mux_output[7]  ; 6.437 ; 6.437 ; 6.437 ; 6.437 ;
+; SelectionBit ; Mux_output[8]  ; 6.302 ; 6.302 ; 6.302 ; 6.302 ;
+; SelectionBit ; Mux_output[9]  ; 5.850 ; 5.850 ; 5.850 ; 5.850 ;
+; SelectionBit ; Mux_output[10] ; 5.848 ; 5.848 ; 5.848 ; 5.848 ;
+; SelectionBit ; Mux_output[11] ; 5.896 ; 5.896 ; 5.896 ; 5.896 ;
+; SelectionBit ; Mux_output[12] ; 5.841 ; 5.841 ; 5.841 ; 5.841 ;
+; SelectionBit ; Mux_output[13] ; 5.649 ; 5.649 ; 5.649 ; 5.649 ;
+; SelectionBit ; Mux_output[14] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; SelectionBit ; Mux_output[15] ; 5.941 ; 5.941 ; 5.941 ; 5.941 ;
++--------------+----------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------+
+; Progagation Delay                                                 ;
++--------------+----------------+--------+--------+--------+--------+
+; Input Port   ; Output Port    ; RR     ; RF     ; FR     ; FF     ;
++--------------+----------------+--------+--------+--------+--------+
+; Mux_X[0]     ; Mux_output[0]  ; 10.572 ;        ;        ; 10.572 ;
+; Mux_X[1]     ; Mux_output[1]  ; 9.992  ;        ;        ; 9.992  ;
+; Mux_X[2]     ; Mux_output[2]  ; 10.117 ;        ;        ; 10.117 ;
+; Mux_X[3]     ; Mux_output[3]  ; 10.451 ;        ;        ; 10.451 ;
+; Mux_X[4]     ; Mux_output[4]  ; 9.756  ;        ;        ; 9.756  ;
+; Mux_X[5]     ; Mux_output[5]  ; 11.172 ;        ;        ; 11.172 ;
+; Mux_X[6]     ; Mux_output[6]  ; 10.779 ;        ;        ; 10.779 ;
+; Mux_X[7]     ; Mux_output[7]  ; 11.438 ;        ;        ; 11.438 ;
+; Mux_X[8]     ; Mux_output[8]  ; 11.016 ;        ;        ; 11.016 ;
+; Mux_X[9]     ; Mux_output[9]  ; 9.873  ;        ;        ; 9.873  ;
+; Mux_X[10]    ; Mux_output[10] ; 9.780  ;        ;        ; 9.780  ;
+; Mux_X[11]    ; Mux_output[11] ; 9.795  ;        ;        ; 9.795  ;
+; Mux_X[12]    ; Mux_output[12] ; 10.218 ;        ;        ; 10.218 ;
+; Mux_X[13]    ; Mux_output[13] ; 5.222  ;        ;        ; 5.222  ;
+; Mux_X[14]    ; Mux_output[14] ; 6.652  ;        ;        ; 6.652  ;
+; Mux_X[15]    ; Mux_output[15] ; 10.549 ;        ;        ; 10.549 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 10.425 ;        ;        ; 10.425 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 9.360  ;        ;        ; 9.360  ;
+; Mux_Y[2]     ; Mux_output[2]  ; 9.630  ;        ;        ; 9.630  ;
+; Mux_Y[3]     ; Mux_output[3]  ; 10.384 ;        ;        ; 10.384 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 9.455  ;        ;        ; 9.455  ;
+; Mux_Y[5]     ; Mux_output[5]  ; 11.716 ;        ;        ; 11.716 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 10.916 ;        ;        ; 10.916 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 11.045 ;        ;        ; 11.045 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 11.294 ;        ;        ; 11.294 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 10.480 ;        ;        ; 10.480 ;
+; Mux_Y[10]    ; Mux_output[10] ; 10.128 ;        ;        ; 10.128 ;
+; Mux_Y[11]    ; Mux_output[11] ; 9.820  ;        ;        ; 9.820  ;
+; Mux_Y[12]    ; Mux_output[12] ; 10.478 ;        ;        ; 10.478 ;
+; Mux_Y[13]    ; Mux_output[13] ; 5.032  ;        ;        ; 5.032  ;
+; Mux_Y[14]    ; Mux_output[14] ; 6.801  ;        ;        ; 6.801  ;
+; Mux_Y[15]    ; Mux_output[15] ; 9.967  ;        ;        ; 9.967  ;
+; SelectionBit ; Mux_output[0]  ; 10.515 ; 10.515 ; 10.515 ; 10.515 ;
+; SelectionBit ; Mux_output[1]  ; 10.137 ; 10.137 ; 10.137 ; 10.137 ;
+; SelectionBit ; Mux_output[2]  ; 10.438 ; 10.438 ; 10.438 ; 10.438 ;
+; SelectionBit ; Mux_output[3]  ; 10.657 ; 10.657 ; 10.657 ; 10.657 ;
+; SelectionBit ; Mux_output[4]  ; 10.519 ; 10.519 ; 10.519 ; 10.519 ;
+; SelectionBit ; Mux_output[5]  ; 11.980 ; 11.980 ; 11.980 ; 11.980 ;
+; SelectionBit ; Mux_output[6]  ; 11.456 ; 11.456 ; 11.456 ; 11.456 ;
+; SelectionBit ; Mux_output[7]  ; 11.858 ; 11.858 ; 11.858 ; 11.858 ;
+; SelectionBit ; Mux_output[8]  ; 11.438 ; 11.438 ; 11.438 ; 11.438 ;
+; SelectionBit ; Mux_output[9]  ; 10.476 ; 10.476 ; 10.476 ; 10.476 ;
+; SelectionBit ; Mux_output[10] ; 10.447 ; 10.447 ; 10.447 ; 10.447 ;
+; SelectionBit ; Mux_output[11] ; 10.483 ; 10.483 ; 10.483 ; 10.483 ;
+; SelectionBit ; Mux_output[12] ; 10.439 ; 10.439 ; 10.439 ; 10.439 ;
+; SelectionBit ; Mux_output[13] ; 10.148 ; 10.148 ; 10.148 ; 10.148 ;
+; SelectionBit ; Mux_output[14] ; 11.768 ; 11.768 ; 11.768 ; 11.768 ;
+; SelectionBit ; Mux_output[15] ; 10.663 ; 10.663 ; 10.663 ; 10.663 ;
++--------------+----------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------+
+; Minimum Progagation Delay                                     ;
++--------------+----------------+-------+-------+-------+-------+
+; Input Port   ; Output Port    ; RR    ; RF    ; FR    ; FF    ;
++--------------+----------------+-------+-------+-------+-------+
+; Mux_X[0]     ; Mux_output[0]  ; 5.901 ;       ;       ; 5.901 ;
+; Mux_X[1]     ; Mux_output[1]  ; 5.518 ;       ;       ; 5.518 ;
+; Mux_X[2]     ; Mux_output[2]  ; 5.591 ;       ;       ; 5.591 ;
+; Mux_X[3]     ; Mux_output[3]  ; 5.831 ;       ;       ; 5.831 ;
+; Mux_X[4]     ; Mux_output[4]  ; 5.465 ;       ;       ; 5.465 ;
+; Mux_X[5]     ; Mux_output[5]  ; 6.116 ;       ;       ; 6.116 ;
+; Mux_X[6]     ; Mux_output[6]  ; 5.984 ;       ;       ; 5.984 ;
+; Mux_X[7]     ; Mux_output[7]  ; 6.213 ;       ;       ; 6.213 ;
+; Mux_X[8]     ; Mux_output[8]  ; 6.104 ;       ;       ; 6.104 ;
+; Mux_X[9]     ; Mux_output[9]  ; 5.558 ;       ;       ; 5.558 ;
+; Mux_X[10]    ; Mux_output[10] ; 5.469 ;       ;       ; 5.469 ;
+; Mux_X[11]    ; Mux_output[11] ; 5.519 ;       ;       ; 5.519 ;
+; Mux_X[12]    ; Mux_output[12] ; 5.697 ;       ;       ; 5.697 ;
+; Mux_X[13]    ; Mux_output[13] ; 2.697 ;       ;       ; 2.697 ;
+; Mux_X[14]    ; Mux_output[14] ; 3.387 ;       ;       ; 3.387 ;
+; Mux_X[15]    ; Mux_output[15] ; 5.833 ;       ;       ; 5.833 ;
+; Mux_Y[0]     ; Mux_output[0]  ; 5.837 ;       ;       ; 5.837 ;
+; Mux_Y[1]     ; Mux_output[1]  ; 5.247 ;       ;       ; 5.247 ;
+; Mux_Y[2]     ; Mux_output[2]  ; 5.399 ;       ;       ; 5.399 ;
+; Mux_Y[3]     ; Mux_output[3]  ; 5.736 ;       ;       ; 5.736 ;
+; Mux_Y[4]     ; Mux_output[4]  ; 5.341 ;       ;       ; 5.341 ;
+; Mux_Y[5]     ; Mux_output[5]  ; 6.436 ;       ;       ; 6.436 ;
+; Mux_Y[6]     ; Mux_output[6]  ; 6.069 ;       ;       ; 6.069 ;
+; Mux_Y[7]     ; Mux_output[7]  ; 6.014 ;       ;       ; 6.014 ;
+; Mux_Y[8]     ; Mux_output[8]  ; 6.168 ;       ;       ; 6.168 ;
+; Mux_Y[9]     ; Mux_output[9]  ; 5.782 ;       ;       ; 5.782 ;
+; Mux_Y[10]    ; Mux_output[10] ; 5.634 ;       ;       ; 5.634 ;
+; Mux_Y[11]    ; Mux_output[11] ; 5.548 ;       ;       ; 5.548 ;
+; Mux_Y[12]    ; Mux_output[12] ; 5.829 ;       ;       ; 5.829 ;
+; Mux_Y[13]    ; Mux_output[13] ; 2.600 ;       ;       ; 2.600 ;
+; Mux_Y[14]    ; Mux_output[14] ; 3.453 ;       ;       ; 3.453 ;
+; Mux_Y[15]    ; Mux_output[15] ; 5.563 ;       ;       ; 5.563 ;
+; SelectionBit ; Mux_output[0]  ; 5.918 ; 5.918 ; 5.918 ; 5.918 ;
+; SelectionBit ; Mux_output[1]  ; 5.600 ; 5.600 ; 5.600 ; 5.600 ;
+; SelectionBit ; Mux_output[2]  ; 5.808 ; 5.808 ; 5.808 ; 5.808 ;
+; SelectionBit ; Mux_output[3]  ; 5.934 ; 5.934 ; 5.934 ; 5.934 ;
+; SelectionBit ; Mux_output[4]  ; 5.828 ; 5.828 ; 5.828 ; 5.828 ;
+; SelectionBit ; Mux_output[5]  ; 6.540 ; 6.540 ; 6.540 ; 6.540 ;
+; SelectionBit ; Mux_output[6]  ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; SelectionBit ; Mux_output[7]  ; 6.437 ; 6.437 ; 6.437 ; 6.437 ;
+; SelectionBit ; Mux_output[8]  ; 6.302 ; 6.302 ; 6.302 ; 6.302 ;
+; SelectionBit ; Mux_output[9]  ; 5.850 ; 5.850 ; 5.850 ; 5.850 ;
+; SelectionBit ; Mux_output[10] ; 5.848 ; 5.848 ; 5.848 ; 5.848 ;
+; SelectionBit ; Mux_output[11] ; 5.896 ; 5.896 ; 5.896 ; 5.896 ;
+; SelectionBit ; Mux_output[12] ; 5.841 ; 5.841 ; 5.841 ; 5.841 ;
+; SelectionBit ; Mux_output[13] ; 5.649 ; 5.649 ; 5.649 ; 5.649 ;
+; SelectionBit ; Mux_output[14] ; 6.428 ; 6.428 ; 6.428 ; 6.428 ;
+; SelectionBit ; Mux_output[15] ; 5.941 ; 5.941 ; 5.941 ; 5.941 ;
++--------------+----------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 33    ; 33   ;
+; Unconstrained Input Port Paths  ; 48    ; 48   ;
+; Unconstrained Output Ports      ; 16    ; 16   ;
+; Unconstrained Output Port Paths ; 48    ; 48   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
+    Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
+    Info: Processing started: Fri Nov 01 16:11:01 2019
+Info: Command: quartus_sta mux -c mux
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 6 of the 6 physical processors detected instead.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'mux.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 333 megabytes
+    Info: Processing ended: Fri Nov 01 16:11:01 2019
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

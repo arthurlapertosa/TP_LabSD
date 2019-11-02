@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 01 16:14:55 2019
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : Comparador
+Top-level Entity Name : Comparador
+Family : Cyclone II
+Total logic elements : 5
+    Total combinational functions : 5
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 17
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

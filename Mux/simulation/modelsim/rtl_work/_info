@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Documentos\UFMG\20192\Laboratório de SD\Quartus\Aula 11\Mux\simulation\modelsim
+Emux
+Z1 w1572635200
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\Documentos\UFMG\20192\Laboratório de SD\Quartus\Aula 11\Mux\simulation\modelsim
+Z6 8D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/mux.vhd
+Z7 FD:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/mux.vhd
+l0
+L6
+VXzzA5<YDf1?:[N?U4k6WL3
+Z8 OV;C;10.1b;51
+31
+Z9 !s108 1572635501.447000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/mux.vhd|
+Z11 !s107 D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/mux.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 ^f0En^=mhaSo>K6S4Wd1D2
+!i10b 1
+Aarch
+R2
+R3
+R4
+DEx4 work 3 mux 0 22 XzzA5<YDf1?:[N?U4k6WL3
+l15
+L14
+V1TPMR04PdGeiAi?gDADI>1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 E<3=Z5b0g_>@TgSl_WBDa0
+!i10b 1
+Etb_mux
+Z14 w1572635452
+R3
+R4
+R5
+Z15 8D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/tb_mux.vhd
+Z16 FD:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/tb_mux.vhd
+l0
+L4
+V`QPiEAZPM08?LiSY_CMW30
+!s100 U>IzRgLJNCmdH=R`F_n8L2
+R8
+31
+!i10b 1
+Z17 !s108 1572635501.558000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/tb_mux.vhd|
+Z19 !s107 D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Mux/tb_mux.vhd|
+R12
+R13
+Ateste
+R3
+R4
+DEx4 work 6 tb_mux 0 22 `QPiEAZPM08?LiSY_CMW30
+l21
+L7
+VeihGci]1B<=kHiHFZUT;h2
+!s100 3JQW7JZPhNKF]^K[lJET70
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13
