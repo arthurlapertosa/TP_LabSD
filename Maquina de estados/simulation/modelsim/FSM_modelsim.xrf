@@ -1,5 +1,6 @@
 vendor_name = ModelSim
 source_file = 1, D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/FSM.vhd
+source_file = 1, D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/tb_FSM.vhd
 source_file = 1, D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/db/FSM.cbx.xml
 source_file = 1, d:/arquivos de programas/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, d:/arquivos de programas/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Documentos\UFMG\20192\Laboratório de SD\Quartus\Trabalho\Maquina de estados\simulation\modelsim
+Efsm
+Z1 w1572709326
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Documentos\UFMG\20192\Laboratório de SD\Quartus\Trabalho\Maquina de estados\simulation\modelsim
+Z5 8D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/FSM.vhd
+Z6 FD:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/FSM.vhd
+l0
+L4
+V^QUVURLY]R=42l;705I^?0
+Z7 OV;C;10.1b;51
+31
+Z8 !s108 1572710005.796000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/FSM.vhd|
+Z10 !s107 D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/FSM.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 WC7WU:757I@ENzFDGP_zE3
+!i10b 1
+Aarch
+R2
+R3
+DEx4 work 3 fsm 0 22 ^QUVURLY]R=42l;705I^?0
+l18
+L14
+VEVTl=LIHjgW<4DWcjR04n3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 M;MA1G<`UiSbT>Ck=U=n;3
+!i10b 1
+Etb_fsm
+Z13 w1572709809
+R2
+R3
+R4
+Z14 8D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/tb_FSM.vhd
+Z15 FD:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/tb_FSM.vhd
+l0
+L6
+V6DmgdP[`eJgLh1B9m69cO0
+!s100 =M9>ROLm<EOn6IQVYPNG52
+R7
+31
+!i10b 1
+Z16 !s108 1572710005.901000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/tb_FSM.vhd|
+Z18 !s107 D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Maquina de estados/tb_FSM.vhd|
+R11
+R12
+Ateste
+R2
+R3
+DEx4 work 6 tb_fsm 0 22 6DmgdP[`eJgLh1B9m69cO0
+l26
+L9
+V[Z4UM7d5`AW^aX;I9]cYo1
+!s100 ;o;CNkHk_o`H@YN5XhFS>0
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
