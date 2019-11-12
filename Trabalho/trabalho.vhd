@@ -46,10 +46,17 @@ architecture arch OF trabalho is
 			);
 		end component;
 		
+		component Comparador is
+			port ( X_COMP : in std_logic_vector (15 downto 0);
+					output_COMP : out std_logic
+			);
+		end component;
+		
 		signal mux_cont : std_logic_vector (15 downto 0);
 		signal cont_cont_out : std_logic_vector (15 downto 0);
 		signal comp : std_logic_vector (15 downto 0);
 		signal somador_out : std_logic_vector (15 downto 0);
+		signal remai_equal : std_logic_vector (15 downto 0);
 		
 begin
 	instancia_mux: Mux port map(
@@ -66,5 +73,30 @@ begin
 		ld=> contador_ld,
 		output=> cont_cont_out
 	);
+	
+	instancia_contador_OUT: contador port map(
+		X=>cont_cont_out,
+		clk=>clk_all,
+		clr=>C_out_clr,
+		ld=> C_out_ld,
+		output=> Contador_out
+	);
+	
+	instancia_remainder: Remainder port map(
+		X=>cont_cont_out,
+		output=>remai_equal
+	);
+	
+	instancia_comparador: Comparador port map(
+		X_COMP=>remai_equal,
+		output_COMP=>rem_eq_0
+	);
+	
+	instancia_incrementador: somador port map(
+		X=>cont_cont_out,
+		output=>somador_out
+	);
+	
+	
 	
 end arch ;
