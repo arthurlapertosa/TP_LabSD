@@ -1,5 +1,5 @@
 EDA Netlist Writer report for trabalho
-Fri Nov 01 16:31:21 2019
+Tue Nov 12 18:19:00 2019
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Nov 01 16:31:21 2019 ;
+; EDA Netlist Writer Status ; Successful - Tue Nov 12 18:19:00 2019 ;
 ; Revision Name             ; trabalho                              ;
 ; Top-level Entity Name     ; trabalho                              ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                    ;
-+---------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                               ;
-+---------------------------------------------------------------------------------------------------------------+
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/simulation/modelsim/trabalho.vho          ;
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/simulation/modelsim/trabalho_fast.vho     ;
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/simulation/modelsim/trabalho_vhd.sdo      ;
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/simulation/modelsim/trabalho_vhd_fast.sdo ;
-+---------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                     ;
++----------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                ;
++----------------------------------------------------------------------------------------------------------------+
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/simulation/modelsim/trabalho.vho          ;
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/simulation/modelsim/trabalho_fast.vho     ;
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/simulation/modelsim/trabalho_vhd.sdo      ;
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/simulation/modelsim/trabalho_vhd_fast.sdo ;
++----------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Fri Nov 01 16:31:21 2019
+    Info: Processing started: Tue Nov 12 18:18:59 2019
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off trabalho -c trabalho
-Info (204026): Generated files "trabalho.vho", "trabalho_fast.vho", "trabalho_vhd.sdo" and "trabalho_vhd_fast.sdo" in directory "D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "trabalho.vho", "trabalho_fast.vho", "trabalho_vhd.sdo" and "trabalho_vhd_fast.sdo" in directory "D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 334 megabytes
-    Info: Processing ended: Fri Nov 01 16:31:21 2019
-    Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 335 megabytes
+    Info: Processing ended: Tue Nov 12 18:19:00 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

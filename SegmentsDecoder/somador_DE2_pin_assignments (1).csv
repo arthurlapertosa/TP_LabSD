@@ -1,0 +1,18 @@
+# Quartus II Version 5.1 Internal Build 160 09/19/2005 TO Full Version,;;;
+# File: D:\de2_pins\de2_pins.csv,;;;
+# Generated on: Wed Sep 28 09:40:34 2005,;;;
+;;;
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.,;;;
+;;;
+To,Location;;;0
+LED_out[0],PIN_AF10;;;
+LED_out[1],PIN_AB12;;;
+LED_out[2],PIN_AC12;;;
+LED_out[3],PIN_AD11;;;
+LED_out[4],PIN_AE11;;;
+LED_out[5],PIN_V14;;;
+LED_out[6],PIN_V13;;;
+LED_BCD[0],PIN_N25;;;
+LED_BCD[1],PIN_N26;;;
+LED_BCD[2],PIN_P25;;;
+LED_BCD[3],PIN_AE14;;;

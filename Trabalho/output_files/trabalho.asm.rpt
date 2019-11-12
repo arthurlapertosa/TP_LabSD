@@ -1,5 +1,5 @@
 Assembler report for trabalho
-Fri Nov 01 16:31:18 2019
+Tue Nov 12 18:18:55 2019
 Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.sof
-  6. Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.pof
+  5. Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.sof
+  6. Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Nov 01 16:31:18 2019 ;
+; Assembler Status      ; Successful - Tue Nov 12 18:18:55 2019 ;
 ; Revision Name         ; trabalho                              ;
 ; Top-level Entity Name ; trabalho                              ;
 ; Family                ; Cyclone II                            ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                     ;
-+-----------------------------------------------------------------------------------------------+
-; File Name                                                                                     ;
-+-----------------------------------------------------------------------------------------------+
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.sof ;
-; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.pof ;
-+-----------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                      ;
++------------------------------------------------------------------------------------------------+
+; File Name                                                                                      ;
++------------------------------------------------------------------------------------------------+
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.sof ;
+; D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.pof ;
++------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.sof ;
-+----------------+--------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                ;
-+----------------+--------------------------------------------------------------------------------------------------------+
-; Device         ; EP2C5T144C6                                                                                            ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                                             ;
-; Checksum       ; 0x00072C9C                                                                                             ;
-+----------------+--------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.sof ;
++----------------+---------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                 ;
++----------------+---------------------------------------------------------------------------------------------------------+
+; Device         ; EP2C5T144C6                                                                                             ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                              ;
+; Checksum       ; 0x000AB598                                                                                              ;
++----------------+---------------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Trabalho/output_files/trabalho.pof ;
-+--------------------+----------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                            ;
-+--------------------+----------------------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                              ;
-; JTAG usercode      ; 0x00000000                                                                                         ;
-; Checksum           ; 0x0752C6DE                                                                                         ;
-; Compression Ratio  ; 3                                                                                                  ;
-+--------------------+----------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Trabalho/output_files/trabalho.pof ;
++--------------------+-----------------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                             ;
++--------------------+-----------------------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                                               ;
+; JTAG usercode      ; 0x00000000                                                                                          ;
+; Checksum           ; 0x074E76AE                                                                                          ;
+; Compression Ratio  ; 3                                                                                                   ;
++--------------------+-----------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -117,13 +117,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Assembler
     Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
-    Info: Processing started: Fri Nov 01 16:31:17 2019
+    Info: Processing started: Tue Nov 12 18:18:54 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off trabalho -c trabalho
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 354 megabytes
-    Info: Processing ended: Fri Nov 01 16:31:18 2019
+    Info: Peak virtual memory: 347 megabytes
+    Info: Processing ended: Tue Nov 12 18:18:55 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
