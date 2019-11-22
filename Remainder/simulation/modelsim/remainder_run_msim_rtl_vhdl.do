@@ -5,9 +5,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Remainder/remainder.vhd}
+vcom -93 -work work {D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Remainder/remainder.vhd}
 
-vcom -93 -work work {D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Aula 11/Remainder/tb_remainder.vhd}
+vcom -93 -work work {D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/Remainder/tb_remainder.vhd}
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_remainder
 

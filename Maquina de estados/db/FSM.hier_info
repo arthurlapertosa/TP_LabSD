@@ -1,18 +1,24 @@
 |FSM
 RESET => estado_atual~3.DATAIN
 CLOCK => estado_atual~1.DATAIN
-S => Selector1.IN3
-S => Selector2.IN3
-S => Selector3.IN3
-S => Selector4.IN3
-S => Selector1.IN1
-S => Selector2.IN1
-S => Selector3.IN1
-S => Selector4.IN1
-A => Selector0.IN0
-B => Selector0.IN1
-C => Selector0.IN2
-D => Selector0.IN3
-Q <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+Start => Selector0.IN3
+Start => proximo_estado.S0.DATAB
+A => Selector1.IN3
+A => Selector0.IN1
+T => Selector2.IN4
+T => process_1.IN0
+T => Selector1.IN1
+T => process_1.IN0
+S => Selector0.IN4
+S => Selector2.IN2
+rem_eq_0 => process_1.IN1
+rem_eq_0 => process_1.IN1
+Mux_selection <= Mux_selection.DB_MAX_OUTPUT_PORT_TYPE
+contador_clr <= contador_clr.DB_MAX_OUTPUT_PORT_TYPE
+contador_ld <= contador_ld.DB_MAX_OUTPUT_PORT_TYPE
+contador_out_clr <= contador_out_clr.DB_MAX_OUTPUT_PORT_TYPE
+contador_out <= contador_out.DB_MAX_OUTPUT_PORT_TYPE
+Led1 <= Led1.DB_MAX_OUTPUT_PORT_TYPE
+Led2 <= contador_ld.DB_MAX_OUTPUT_PORT_TYPE
 
 

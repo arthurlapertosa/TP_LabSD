@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/FSM/FSM.vhd
+source_file = 1, D:/Documentos/UFMG/20192/Laboratório de SD/Quartus/Trabalho/FSM/db/FSM.cbx.xml
+source_file = 1, d:/arquivos de programas/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/arquivos de programas/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/arquivos de programas/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/arquivos de programas/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = FSM
+instance = comp, \A~I\, A, FSM, 1
+instance = comp, \B~I\, B, FSM, 1
+instance = comp, \C~I\, C, FSM, 1
+instance = comp, \D~I\, D, FSM, 1
+instance = comp, \Q~I\, Q, FSM, 1
+instance = comp, \S~I\, S, FSM, 1
+instance = comp, \CLOCK~I\, CLOCK, FSM, 1
+instance = comp, \RESET~I\, RESET, FSM, 1

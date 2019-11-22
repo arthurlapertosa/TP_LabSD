@@ -1,11 +1,11 @@
-Fitter Status : Successful - Tue Nov 12 18:18:52 2019
-Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Fitter Status : Successful - Fri Nov 22 15:05:20 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : trabalho
 Top-level Entity Name : trabalho
 Family : Cyclone II
 Device : EP2C5T144C6
 Timing Models : Final
-Total logic elements : 353 / 4,608 ( 8 % )
+Total logic elements : 350 / 4,608 ( 8 % )
     Total combinational functions : 337 / 4,608 ( 7 % )
     Dedicated logic registers : 32 / 4,608 ( < 1 % )
 Total registers : 32

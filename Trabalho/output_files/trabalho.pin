@@ -1,4 +1,4 @@
- -- Copyright (C) 1991-2012 Altera Corporation
+ -- Copyright (C) 1991-2013 Altera Corporation
  -- Your use of Altera Corporation's design tools, logic functions 
  -- and other software and tools, and its AMPP partner logic 
  -- functions, and any output files from any of the foregoing 
@@ -59,7 +59,7 @@
  -- Pin directions (input, output or bidir) are based on device operating in user mode.
  ---------------------------------------------------------------------------------
 
-Quartus II 32-bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 CHIP  "trabalho"  ASSIGNED TO AN: EP2C5T144C6
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
@@ -89,7 +89,7 @@ GND+                         : 22        :        :                   :         
 VCCIO1                       : 23        : power  :                   : 3.3V    : 1         :                
 GND*                         : 24        :        :                   :         : 1         :                
 GND*                         : 25        :        :                   :         : 1         :                
-Valor[12]                    : 26        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 26        :        :                   :         : 1         :                
 GND*                         : 27        :        :                   :         : 1         :                
 GND*                         : 28        :        :                   :         : 1         :                
 VCCIO1                       : 29        : power  :                   : 3.3V    : 1         :                
@@ -116,58 +116,58 @@ GND                          : 49        : gnd    :                   :         
 VCCINT                       : 50        : power  :                   : 1.2V    :           :                
 GND*                         : 51        :        :                   :         : 4         :                
 GND*                         : 52        :        :                   :         : 4         :                
-Contador_out[7]              : 53        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 53        :        :                   :         : 4         :                
 VCCIO4                       : 54        : power  :                   : 3.3V    : 4         :                
-Contador_out[6]              : 55        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 55        :        :                   :         : 4         :                
 GND                          : 56        : gnd    :                   :         :           :                
-rem_eq_0                     : 57        : output : 3.3-V LVTTL       :         : 4         : N              
-Contador_out[10]             : 58        : output : 3.3-V LVTTL       :         : 4         : N              
-Contador_out[4]              : 59        : output : 3.3-V LVTTL       :         : 4         : N              
-Contador_out[15]             : 60        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 57        :        :                   :         : 4         :                
+GND*                         : 58        :        :                   :         : 4         :                
+GND*                         : 59        :        :                   :         : 4         :                
+GND*                         : 60        :        :                   :         : 4         :                
 GND                          : 61        : gnd    :                   :         :           :                
 VCCINT                       : 62        : power  :                   : 1.2V    :           :                
-Contador_out[9]              : 63        : output : 3.3-V LVTTL       :         : 4         : N              
-C_out_ld                     : 64        : input  : 3.3-V LVTTL       :         : 4         : N              
-Contador_out[13]             : 65        : output : 3.3-V LVTTL       :         : 4         : N              
+Contador_out[10]             : 63        : output : 3.3-V LVTTL       :         : 4         : N              
+Valor[11]                    : 64        : input  : 3.3-V LVTTL       :         : 4         : N              
+Valor[1]                     : 65        : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : 66        : power  :                   : 3.3V    : 4         :                
-Valor[10]                    : 67        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 67        :        :                   :         : 4         :                
 GND                          : 68        : gnd    :                   :         :           :                
-Contador_out[12]             : 69        : output : 3.3-V LVTTL       :         : 4         : N              
-Valor[14]                    : 70        : input  : 3.3-V LVTTL       :         : 4         : N              
-Valor[6]                     : 71        : input  : 3.3-V LVTTL       :         : 4         : N              
-Valor[1]                     : 72        : input  : 3.3-V LVTTL       :         : 4         : N              
-Contador_out[11]             : 73        : output : 3.3-V LVTTL       :         : 3         : N              
-Contador_out[14]             : 74        : output : 3.3-V LVTTL       :         : 3         : N              
-Contador_out[8]              : 75        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 69        :        :                   :         : 4         :                
+GND*                         : 70        :        :                   :         : 4         :                
+GND*                         : 71        :        :                   :         : 4         :                
+GND*                         : 72        :        :                   :         : 4         :                
+GND*                         : 73        :        :                   :         : 3         :                
+GND*                         : 74        :        :                   :         : 3         :                
+Contador_out[15]             : 75        : output : 3.3-V LVTTL       :         : 3         : N              
 ~LVDS41p/nCEO~               : 76        : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : 77        : power  :                   : 3.3V    : 3         :                
 GND                          : 78        : gnd    :                   :         :           :                
-Valor[4]                     : 79        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[0]                     : 80        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[5]                     : 81        : input  : 3.3-V LVTTL       :         : 3         : N              
+Valor[9]                     : 79        : input  : 3.3-V LVTTL       :         : 3         : N              
+Mux_selection                : 80        : input  : 3.3-V LVTTL       :         : 3         : N              
+Valor[14]                    : 81        : input  : 3.3-V LVTTL       :         : 3         : N              
 nSTATUS                      : 82        :        :                   :         : 3         :                
 CONF_DONE                    : 83        :        :                   :         : 3         :                
 MSEL1                        : 84        :        :                   :         : 3         :                
 MSEL0                        : 85        :        :                   :         : 3         :                
-Valor[13]                    : 86        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[2]                     : 87        : input  : 3.3-V LVTTL       :         : 3         : N              
+Valor[4]                     : 86        : input  : 3.3-V LVTTL       :         : 3         : N              
+Valor[6]                     : 87        : input  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : 88        :        :                   :         : 3         :                
 GND+                         : 89        :        :                   :         : 3         :                
 GND+                         : 90        :        :                   :         : 3         :                
 GND+                         : 91        :        :                   :         : 3         :                
-contador_ld                  : 92        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[11]                    : 93        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[8]                     : 94        : input  : 3.3-V LVTTL       :         : 3         : N              
+Contador_out[14]             : 92        : output : 3.3-V LVTTL       :         : 3         : N              
+Contador_out[13]             : 93        : output : 3.3-V LVTTL       :         : 3         : N              
+Valor[5]                     : 94        : input  : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : 95        : power  :                   : 3.3V    : 3         :                
-Valor[9]                     : 96        : input  : 3.3-V LVTTL       :         : 3         : N              
-Contador_out[5]              : 97        : output : 3.3-V LVTTL       :         : 3         : N              
+Valor[2]                     : 96        : input  : 3.3-V LVTTL       :         : 3         : N              
+Valor[15]                    : 97        : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : 98        : gnd    :                   :         :           :                
-Mux_selection                : 99        : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[15]                    : 100       : input  : 3.3-V LVTTL       :         : 3         : N              
-Valor[3]                     : 101       : input  : 3.3-V LVTTL       :         : 3         : N              
+C_out_ld                     : 99        : input  : 3.3-V LVTTL       :         : 3         : N              
+Contador_out[4]              : 100       : output : 3.3-V LVTTL       :         : 3         : N              
+Valor[13]                    : 101       : input  : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : 102       : power  :                   : 3.3V    : 3         :                
-Valor[7]                     : 103       : input  : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : 104       :        :                   :         : 3         :                
+Contador_out[12]             : 103       : output : 3.3-V LVTTL       :         : 3         : N              
+Valor[8]                     : 104       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : 105       : gnd    :                   :         :           :                
 GND_PLL2                     : 106       : gnd    :                   :         :           :                
 VCCD_PLL2                    : 107       : power  :                   : 1.2V    :           :                
@@ -175,31 +175,31 @@ GND_PLL2                     : 108       : gnd    :                   :         
 VCCA_PLL2                    : 109       : power  :                   : 1.2V    :           :                
 GNDA_PLL2                    : 110       : gnd    :                   :         :           :                
 GND                          : 111       : gnd    :                   :         :           :                
-GND*                         : 112       :        :                   :         : 2         :                
-GND*                         : 113       :        :                   :         : 2         :                
-GND*                         : 114       :        :                   :         : 2         :                
-GND*                         : 115       :        :                   :         : 2         :                
+contador_ld                  : 112       : input  : 3.3-V LVTTL       :         : 2         : N              
+Valor[7]                     : 113       : input  : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[11]             : 114       : output : 3.3-V LVTTL       :         : 2         : N              
+Valor[3]                     : 115       : input  : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : 116       : power  :                   : 3.3V    : 2         :                
 GND                          : 117       : gnd    :                   :         :           :                
-Contador_out[2]              : 118       : output : 3.3-V LVTTL       :         : 2         : N              
-Contador_out[1]              : 119       : output : 3.3-V LVTTL       :         : 2         : N              
-Contador_out[3]              : 120       : output : 3.3-V LVTTL       :         : 2         : N              
-Contador_out[0]              : 121       : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : 122       :        :                   :         : 2         :                
+Valor[0]                     : 118       : input  : 3.3-V LVTTL       :         : 2         : N              
+Valor[12]                    : 119       : input  : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[6]              : 120       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[7]              : 121       : output : 3.3-V LVTTL       :         : 2         : N              
+Valor[10]                    : 122       : input  : 3.3-V LVTTL       :         : 2         : N              
 GND                          : 123       : gnd    :                   :         :           :                
 VCCINT                       : 124       : power  :                   : 1.2V    :           :                
-GND*                         : 125       :        :                   :         : 2         :                
-GND*                         : 126       :        :                   :         : 2         :                
+Contador_out[8]              : 125       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[9]              : 126       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCIO2                       : 127       : power  :                   : 3.3V    : 2         :                
 GND                          : 128       : gnd    :                   :         :           :                
-GND*                         : 129       :        :                   :         : 2         :                
+rem_eq_0                     : 129       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : 130       : gnd    :                   :         :           :                
 VCCINT                       : 131       : power  :                   : 1.2V    :           :                
-GND*                         : 132       :        :                   :         : 2         :                
-GND*                         : 133       :        :                   :         : 2         :                
-GND*                         : 134       :        :                   :         : 2         :                
-GND*                         : 135       :        :                   :         : 2         :                
-GND*                         : 136       :        :                   :         : 2         :                
+Contador_out[0]              : 132       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[2]              : 133       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[5]              : 134       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[1]              : 135       : output : 3.3-V LVTTL       :         : 2         : N              
+Contador_out[3]              : 136       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 137       :        :                   :         : 2         :                
 VCCIO2                       : 138       : power  :                   : 3.3V    : 2         :                
 GND*                         : 139       :        :                   :         : 2         :                
