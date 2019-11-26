@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
--- DATE "11/22/2019 16:12:36"
+-- DATE "11/26/2019 17:59:03"
 
 -- 
 -- Device: Altera EP2C5T144C6 Package TQFP144
@@ -44,7 +44,7 @@ ENTITY 	FSM IS
 	contador_clr : OUT std_logic;
 	contador_ld : OUT std_logic;
 	contador_out_clr : OUT std_logic;
-	contador_out : OUT std_logic;
+	contador_out_ld : OUT std_logic;
 	Led1 : OUT std_logic;
 	Led2 : OUT std_logic
 	);
@@ -55,7 +55,7 @@ END FSM;
 -- contador_clr	=>  Location: PIN_24,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 -- contador_ld	=>  Location: PIN_32,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 -- contador_out_clr	=>  Location: PIN_41,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
--- contador_out	=>  Location: PIN_27,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+-- contador_out_ld	=>  Location: PIN_27,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 -- Led1	=>  Location: PIN_9,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 -- Led2	=>  Location: PIN_30,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 -- S	=>  Location: PIN_21,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
@@ -88,7 +88,7 @@ SIGNAL ww_Mux_selection : std_logic;
 SIGNAL ww_contador_clr : std_logic;
 SIGNAL ww_contador_ld : std_logic;
 SIGNAL ww_contador_out_clr : std_logic;
-SIGNAL ww_contador_out : std_logic;
+SIGNAL ww_contador_out_ld : std_logic;
 SIGNAL ww_Led1 : std_logic;
 SIGNAL ww_Led2 : std_logic;
 SIGNAL \RESET~clkctrl_INCLK_bus\ : std_logic_vector(3 DOWNTO 0);
@@ -116,9 +116,9 @@ SIGNAL \Selector0~0_combout\ : std_logic;
 SIGNAL \Selector0~1_combout\ : std_logic;
 SIGNAL \estado_atual.S1~regout\ : std_logic;
 SIGNAL \contador_ld~2_combout\ : std_logic;
-SIGNAL \contador_out~1_combout\ : std_logic;
+SIGNAL \contador_out_ld~1_combout\ : std_logic;
 SIGNAL \Led1~1_combout\ : std_logic;
-SIGNAL \ALT_INV_contador_out~1_combout\ : std_logic;
+SIGNAL \ALT_INV_contador_out_ld~1_combout\ : std_logic;
 SIGNAL \ALT_INV_contador_ld~2_combout\ : std_logic;
 SIGNAL \ALT_INV_estado_atual.S0~regout\ : std_logic;
 
@@ -135,7 +135,7 @@ Mux_selection <= ww_Mux_selection;
 contador_clr <= ww_contador_clr;
 contador_ld <= ww_contador_ld;
 contador_out_clr <= ww_contador_out_clr;
-contador_out <= ww_contador_out;
+contador_out_ld <= ww_contador_out_ld;
 Led1 <= ww_Led1;
 Led2 <= ww_Led2;
 ww_devoe <= devoe;
@@ -145,7 +145,7 @@ ww_devpor <= devpor;
 \RESET~clkctrl_INCLK_bus\ <= (gnd & gnd & gnd & \RESET~combout\);
 
 \CLOCK~clkctrl_INCLK_bus\ <= (gnd & gnd & gnd & \CLOCK~combout\);
-\ALT_INV_contador_out~1_combout\ <= NOT \contador_out~1_combout\;
+\ALT_INV_contador_out_ld~1_combout\ <= NOT \contador_out_ld~1_combout\;
 \ALT_INV_contador_ld~2_combout\ <= NOT \contador_ld~2_combout\;
 \ALT_INV_estado_atual.S0~regout\ <= NOT \estado_atual.S0~regout\;
 
@@ -552,9 +552,9 @@ PORT MAP (
 	combout => \contador_ld~2_combout\);
 
 -- Location: LCCOMB_X1_Y5_N20
-\contador_out~1\ : cycloneii_lcell_comb
+\contador_out_ld~1\ : cycloneii_lcell_comb
 -- Equation(s):
--- \contador_out~1_combout\ = (\estado_atual.S1~regout\) # (!\estado_atual.S0~regout\)
+-- \contador_out_ld~1_combout\ = (\estado_atual.S1~regout\) # (!\estado_atual.S0~regout\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -564,7 +564,7 @@ GENERIC MAP (
 PORT MAP (
 	datab => \estado_atual.S0~regout\,
 	datad => \estado_atual.S1~regout\,
-	combout => \contador_out~1_combout\);
+	combout => \contador_out_ld~1_combout\);
 
 -- Location: LCCOMB_X1_Y5_N24
 \Led1~1\ : cycloneii_lcell_comb
@@ -686,7 +686,7 @@ PORT MAP (
 	padio => ww_contador_out_clr);
 
 -- Location: PIN_27,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
-\contador_out~I\ : cycloneii_io
+\contador_out_ld~I\ : cycloneii_io
 -- pragma translate_off
 GENERIC MAP (
 	input_async_reset => "none",
@@ -704,12 +704,12 @@ GENERIC MAP (
 	output_sync_reset => "none")
 -- pragma translate_on
 PORT MAP (
-	datain => \ALT_INV_contador_out~1_combout\,
+	datain => \ALT_INV_contador_out_ld~1_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	devoe => ww_devoe,
 	oe => VCC,
-	padio => ww_contador_out);
+	padio => ww_contador_out_ld);
 
 -- Location: PIN_9,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
 \Led1~I\ : cycloneii_io

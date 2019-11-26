@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for FSM
-Fri Nov 22 16:12:35 2019
+Tue Nov 26 17:59:02 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -265,8 +265,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 6.342 ; 6.342 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 5.946 ; 5.946 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 6.911 ; 6.911 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 6.454 ; 6.454 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 6.352 ; 6.352 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 6.454 ; 6.454 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -280,8 +280,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 6.342 ; 6.342 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 5.946 ; 5.946 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 6.666 ; 6.666 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 6.355 ; 6.355 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 6.352 ; 6.352 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 6.355 ; 6.355 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -433,8 +433,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 3.563 ; 3.563 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 3.326 ; 3.326 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 3.805 ; 3.805 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 3.554 ; 3.554 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 3.573 ; 3.573 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 3.554 ; 3.554 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -448,8 +448,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 3.563 ; 3.563 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 3.326 ; 3.326 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 3.714 ; 3.714 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 3.496 ; 3.496 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 3.573 ; 3.573 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 3.496 ; 3.496 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -501,8 +501,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 6.342 ; 6.342 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 5.946 ; 5.946 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 6.911 ; 6.911 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 6.454 ; 6.454 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 6.352 ; 6.352 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 6.454 ; 6.454 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -516,8 +516,8 @@ No paths to report.
 ; Mux_selection    ; CLOCK      ; 3.563 ; 3.563 ; Rise       ; CLOCK           ;
 ; contador_clr     ; CLOCK      ; 3.326 ; 3.326 ; Rise       ; CLOCK           ;
 ; contador_ld      ; CLOCK      ; 3.714 ; 3.714 ; Rise       ; CLOCK           ;
-; contador_out     ; CLOCK      ; 3.496 ; 3.496 ; Rise       ; CLOCK           ;
 ; contador_out_clr ; CLOCK      ; 3.573 ; 3.573 ; Rise       ; CLOCK           ;
+; contador_out_ld  ; CLOCK      ; 3.496 ; 3.496 ; Rise       ; CLOCK           ;
 +------------------+------------+-------+-------+------------+-----------------+
 
 
@@ -573,7 +573,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Nov 22 16:12:33 2019
+    Info: Processing started: Tue Nov 26 17:59:01 2019
 Info: Command: quartus_sta FSM -c FSM
 Info: qsta_default_script.tcl version: #1
 Info (11104): Parallel Compilation has detected 12 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 6 of the 6 physical processors detected instead.
@@ -620,8 +620,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 4578 megabytes
-    Info: Processing ended: Fri Nov 22 16:12:35 2019
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Tue Nov 26 17:59:02 2019
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

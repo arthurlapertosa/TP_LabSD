@@ -90,7 +90,7 @@ VCCIO1                       : 23        : power  :                   : 3.3V    
 contador_clr                 : 24        : output : 3.3-V LVTTL       :         : 1         : N              
 T                            : 25        : input  : 3.3-V LVTTL       :         : 1         : N              
 rem_eq_0                     : 26        : input  : 3.3-V LVTTL       :         : 1         : N              
-contador_out                 : 27        : output : 3.3-V LVTTL       :         : 1         : N              
+contador_out_ld              : 27        : output : 3.3-V LVTTL       :         : 1         : N              
 Start                        : 28        : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : 29        : power  :                   : 3.3V    : 1         :                
 Led2                         : 30        : output : 3.3-V LVTTL       :         : 1         : N              

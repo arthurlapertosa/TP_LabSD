@@ -17,7 +17,7 @@ Mux_selection <= Mux_selection.DB_MAX_OUTPUT_PORT_TYPE
 contador_clr <= contador_clr.DB_MAX_OUTPUT_PORT_TYPE
 contador_ld <= contador_ld.DB_MAX_OUTPUT_PORT_TYPE
 contador_out_clr <= contador_out_clr.DB_MAX_OUTPUT_PORT_TYPE
-contador_out <= contador_out.DB_MAX_OUTPUT_PORT_TYPE
+contador_out_ld <= contador_out_ld.DB_MAX_OUTPUT_PORT_TYPE
 Led1 <= Led1.DB_MAX_OUTPUT_PORT_TYPE
 Led2 <= contador_ld.DB_MAX_OUTPUT_PORT_TYPE
 

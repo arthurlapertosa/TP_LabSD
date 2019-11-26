@@ -1,5 +1,5 @@
 Flow report for FSM
-Fri Nov 22 16:12:36 2019
+Tue Nov 26 17:59:03 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 22 16:12:36 2019           ;
+; Flow Status                        ; Successful - Tue Nov 26 17:59:03 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; FSM                                             ;
 ; Top-level Entity Name              ; FSM                                             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/22/2019 16:12:28 ;
+; Start date & time ; 11/26/2019 17:58:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FSM                 ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 238390280931782.157444994727072 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 238390280931782.157480193510752 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                              ; --            ; --          ; tb_FSM         ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_FSM                          ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                            ; --            ; --          ; eda_simulation ;
@@ -97,8 +97,8 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4624 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:02     ; 1.0                     ; 5269 MB             ; 00:00:02                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4625 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:02     ; 1.0                     ; 5260 MB             ; 00:00:02                           ;
 ; Assembler                 ; 00:00:01     ; 1.0                     ; 4562 MB             ; 00:00:01                           ;
 ; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4578 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4521 MB             ; 00:00:00                           ;

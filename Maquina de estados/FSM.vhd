@@ -12,7 +12,7 @@ entity FSM is
         contador_clr       : out   std_logic; 
         contador_ld       : out   std_logic; 
         contador_out_clr       : out   std_logic; 
-        contador_out      : out   std_logic; 
+        contador_out_ld      : out   std_logic; 
         Led1     : out   std_logic; 
         Led2     : out   std_logic
     );
@@ -32,7 +32,7 @@ begin
 	  end if;
 	end process;
 
-  process(Start, A, T, S, estado_atual) is
+  process(Start, A, T, S, rem_eq_0, estado_atual) is
   begin
     case estado_atual is
 	   when S0 =>
@@ -40,7 +40,7 @@ begin
 		Mux_selection <= '0';
         contador_ld  <= '0'; 
         contador_out_clr  <= '0'; 
-        contador_out  <= '0'; 
+        contador_out_ld  <= '0'; 
         Led1 <= '1'; 
         Led2 <= '1';
 		  if (Start ='1') then
@@ -54,7 +54,7 @@ begin
 		contador_out_clr <= '1';
 		contador_ld <= '1';
 		contador_clr <= '0';
-        contador_out  <= '0'; 
+        contador_out_ld  <= '0'; 
         Led1 <= '0'; 
         Led2 <= '0';
 			if (A ='1') then
@@ -64,7 +64,7 @@ begin
 			end if;
 
 		when S2 =>
-			contador_out <= '1';
+			contador_out_ld <= '1';
 			Mux_selection <= '0';
 			contador_ld <= '1';
 			contador_clr <= '0';
@@ -80,7 +80,7 @@ begin
 			end if;
 
 	   when S4 =>
-		contador_out <= '1';
+		contador_out_ld <= '1';
 		Mux_selection <= '0';
 		contador_ld <= '1';
 		Led1 <= '1';
@@ -95,7 +95,7 @@ begin
 		
 		when S3 =>
 		Led2 <= '1';
-		contador_out <= '1';
+		contador_out_ld <= '1';
 		contador_clr <= '0';
 		Mux_selection <= '0'; 
         contador_ld  <= '0'; 

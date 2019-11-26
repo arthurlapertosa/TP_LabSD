@@ -24,7 +24,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "FSM")
-  (DATE "11/22/2019 16:12:36")
+  (DATE "11/26/2019 17:59:03")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
@@ -349,7 +349,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_lcell_comb")
-    (INSTANCE \\contador_out\~1\\)
+    (INSTANCE \\contador_out_ld\~1\\)
     (DELAY
       (ABSOLUTE
         (PORT datab (349:349:349) (349:349:349))
@@ -413,7 +413,7 @@
   )
   (CELL
     (CELLTYPE "cycloneii_asynch_io")
-    (INSTANCE \\contador_out\~I\\.asynch_inst)
+    (INSTANCE \\contador_out_ld\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
         (PORT datain (465:465:465) (465:465:465))
