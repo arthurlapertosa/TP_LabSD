@@ -14,7 +14,13 @@ entity FSM is
         contador_out_clr       : out   std_logic; 
         contador_out_ld      : out   std_logic; 
         Led1     : out   std_logic; 
-        Led2     : out   std_logic
+        Led2     : out   std_logic;
+		  
+		Estado1 : out std_logic;
+		Estado2 : out std_logic;
+		Estado3 : out std_logic;
+		Estado4 : out std_logic;
+		Estado5 : out std_logic
     );
 end FSM;
 
@@ -43,6 +49,12 @@ begin
         contador_out_ld  <= '0'; 
         Led1 <= '1'; 
         Led2 <= '1';
+		Estado1 <= '1';
+		Estado2 <= '0';
+		Estado3 <= '0';
+		Estado4 <= '0';
+		Estado5 <= '0';
+		
 		  if (Start ='1') then
 			 proximo_estado <= S1;
 		  else
@@ -56,7 +68,12 @@ begin
 		contador_clr <= '0';
         contador_out_ld  <= '0'; 
         Led1 <= '0'; 
-        Led2 <= '0';
+		Led2 <= '0';
+		Estado1 <= '0';
+		Estado2 <= '1';
+		Estado3 <= '0';
+		Estado4 <= '0';
+		Estado5 <= '0';
 			if (A ='1') then
 				proximo_estado <= S2;
 			else
@@ -71,6 +88,11 @@ begin
 			contador_out_clr  <= '0'; 
 			Led1 <= '0'; 
 			Led2 <= '0';
+			Estado1 <= '0';
+			Estado2 <= '0';
+			Estado3 <= '1';
+			Estado4 <= '0';
+			Estado5 <= '0';
 			if (T = '0' and rem_eq_0 = '0') then
 				proximo_estado <= S2;
 			elsif (T = '0' and rem_eq_0 = '1') then
@@ -86,7 +108,12 @@ begin
 		Led1 <= '1';
 		contador_clr <= '0';
         contador_out_clr  <= '0'; 
-        Led2 <= '0';
+		Led2 <= '0';
+		Estado1 <= '0';
+		Estado2 <= '0';
+		Estado3 <= '0';
+		Estado4 <= '0';
+		Estado5 <= '1';
 		if (T ='1') then
 			proximo_estado <= S3;
 		else
@@ -100,7 +127,12 @@ begin
 		Mux_selection <= '0'; 
         contador_ld  <= '0'; 
         contador_out_clr  <= '0'; 
-        Led1 <= '0'; 
+		Led1 <= '0';
+		Estado1 <= '0';
+		Estado2 <= '0';
+		Estado3 <= '0';
+		Estado4 <= '1';
+		Estado5 <= '0';
 		if (S ='1') then
 			proximo_estado <= S1;
 		else
