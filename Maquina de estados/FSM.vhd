@@ -63,10 +63,10 @@ begin
 
 	   when S1 =>
 		Mux_selection <= '1';
-		contador_out_clr <= '1';
+		contador_out_clr <= '0';
 		contador_ld <= '1';
 		contador_clr <= '0';
-        contador_out_ld  <= '0'; 
+        contador_out_ld  <= '1'; 
         Led1 <= '0'; 
 		Led2 <= '0';
 		Estado1 <= '0';
@@ -127,7 +127,7 @@ begin
 		Mux_selection <= '0'; 
         contador_ld  <= '0'; 
         contador_out_clr  <= '0'; 
-		Led1 <= '0';
+		Led1 <= '1';
 		Estado1 <= '0';
 		Estado2 <= '0';
 		Estado3 <= '0';

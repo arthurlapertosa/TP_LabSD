@@ -4,14 +4,12 @@ use ieee.numeric_std.all;
 
 
 entity Cronometro is
-	port ( --Valor : in std_logic_vector (15 downto 0);
+	port ( Valor : in std_logic_vector (15 downto 0);
 			 Start : in std_logic;
 			 A : in std_logic;
 			 T : in std_logic;
 			 S : in std_logic;
 			 Reset : in std_logic;
-			 Led1 : out std_logic;
-			 Led2 : out std_logic;
 			 LED0_out : out std_logic_vector (6 downto 0);
 			  LED1_out : out std_logic_vector (6 downto 0);
 			  LED2_out  : out std_logic_vector (6 downto 0);
@@ -22,7 +20,14 @@ entity Cronometro is
 			  Estado3 : out std_logic;
 			  Estado4 : out std_logic;
 			  Estado5 : out std_logic;
-			  
+			  LEDSIXTY0 : out std_logic;
+			  LEDSIXTY1 : out std_logic;
+			  LEDSIXTY2 : out std_logic;
+			  LEDSIXTY3 : out std_logic;
+			  LEDSIXTY4 : out std_logic;
+			  LEDSIXTY5 : out std_logic;
+			  LEDSIXTY6 : out std_logic;
+			  LEDSIXTY7 : out std_logic
  	);
 end Cronometro;
 
@@ -83,12 +88,25 @@ architecture arch OF Cronometro is
 	signal contador_out_ld : std_logic;
 	signal rem_eq_0 : std_logic;
 	
+	signal LED_CONNECT : std_logic;
+	
 	signal Contador_out : std_logic_vector (15 downto 0);
 	
-	signal Valor : std_logic_vector (15 downto 0) := x"0000";
+	--signal Valor : std_logic_vector (15 downto 0) := x"0000";
 	signal realClock : std_logic;
 begin
 
+LEDSIXTY0 <= LED_CONNECT;
+LEDSIXTY1 <= LED_CONNECT;
+LEDSIXTY2 <= LED_CONNECT;
+LEDSIXTY3 <= LED_CONNECT;
+LEDSIXTY4 <= LED_CONNECT;
+LEDSIXTY5 <= LED_CONNECT;
+LEDSIXTY6 <= LED_CONNECT;
+LEDSIXTY7 <= LED_CONNECT;
+
+
+-- Normalizando o clock para 1Hz
 process(CLOCK) is
 variable cont : std_logic_vector (27 downto 0) := x"0000000";
 variable one : std_logic_vector (27 downto 0) := x"0000001";
@@ -130,8 +148,7 @@ end process;
 		contador_ld=>contador_ld,
 		contador_out_clr=>contador_out_clr,
 		contador_out_ld=>contador_out_ld,
-		Led1=>Led1,
-		Led2=>Led2,
+		Led1=>LED_CONNECT,
 		Estado1=>Estado1,
 		Estado2=>Estado2,
 		Estado3=>Estado3,
