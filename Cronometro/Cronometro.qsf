@@ -94,7 +94,7 @@ set_location_assignment PIN_W26 -to Start
 set_location_assignment PIN_P23 -to A
 set_location_assignment PIN_N23 -to T
 set_location_assignment PIN_G26 -to S
-set_location_assignment PIN_V2 -to CLOCK
+set_location_assignment PIN_N2 -to CLOCK
 set_location_assignment PIN_AD12 -to Estado1
 set_location_assignment PIN_AE12 -to Estado2
 set_location_assignment PIN_AE13 -to Estado3

@@ -21,7 +21,8 @@ entity Cronometro is
 			  Estado2 : out std_logic;
 			  Estado3 : out std_logic;
 			  Estado4 : out std_logic;
-			  Estado5 : out std_logic
+			  Estado5 : out std_logic;
+			  
  	);
 end Cronometro;
 
@@ -85,11 +86,28 @@ architecture arch OF Cronometro is
 	signal Contador_out : std_logic_vector (15 downto 0);
 	
 	signal Valor : std_logic_vector (15 downto 0) := x"0000";
+	signal realClock : std_logic;
 begin
+
+process(CLOCK) is
+variable cont : std_logic_vector (27 downto 0) := x"0000000";
+variable one : std_logic_vector (27 downto 0) := x"0000001";
+	begin
+	  if (rising_edge(CLOCK)) then
+			if(cont < x"2FAF080") then
+				realClock <= '0';
+			 cont := std_logic_vector(unsigned(cont) + unsigned(one));
+		  else
+		  realClock <= '1';
+			cont := x"0000000";
+		  end if;
+		  end if;
+end process;
+
 	instancia_datapath: trabalho port map(
 		Valor=>Valor,
 		Mux_selection=>Mux_selection,
-		clk_all=>CLOCK,
+		clk_all=>realClock,
 		contador_clr=>contador_clr,
 		contador_ld=>contador_ld,
 		C_out_clr=>contador_out_clr,
@@ -101,7 +119,7 @@ begin
 	
 	instancia_FSM: FSM port map(
 		RESET=>Reset,
-		CLOCK=>CLOCK,
+		CLOCK=>realClock,
 		Start=>not(Start),
 		A=>not(A),
 		T=>not(T),

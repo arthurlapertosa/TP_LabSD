@@ -45,7 +45,7 @@ begin
 		contador_clr <= '1';
 		Mux_selection <= '0';
         contador_ld  <= '0'; 
-        contador_out_clr  <= '0'; 
+        contador_out_clr  <= '1'; 
         contador_out_ld  <= '0'; 
         Led1 <= '1'; 
         Led2 <= '1';
